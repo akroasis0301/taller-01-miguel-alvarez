@@ -1,12 +1,5 @@
 """
 tallerlib.py - utilidades compartidas del Taller 01 (MMIA 6013, USFQ).
-
-Idea central: TODAS las partes del taller escriben en UN solo archivo crudo,
-resultados/resultados.csv (y su gemelo .jsonl), con UNA fila por llamada.
-Las tablas y graficas del informe se derivan de ese archivo, nunca a mano.
-
-Este modulo no contiene ninguna clave. Las claves se leen mas adelante desde
-variables de entorno o desde un .env que el .gitignore excluye.
 """
 from __future__ import annotations
 
@@ -131,12 +124,12 @@ def reemplazar_partes(partes: set[str]) -> int:
 
 
 def reevaluar_filas(parte: str, extractores: dict | None = None) -> dict:
-    """Recalcula `prediccion` y `acierto` de las filas de una parte a partir de la SALIDA CRUDA
+    """Recalcula prediccion y acierto de las filas de una parte a partir de la SALIDA CRUDA
     ya guardada, sin llamar a ninguna API. Sirve cuando se corrige el verificador (extractor):
     la respuesta del modelo no cambia, cambia como la leemos.
     - extractores: {variante: funcion(texto)}; sin entrada -> extraer_entero.
     - Solo toca filas sin error y con respuesta esperada.
-    - Si el acierto cambia, la fila conserva el valor original en `nota` (auditable).
+    - Si el acierto cambia, la fila conserva el valor original en nota (auditable).
     Es idempotente: una segunda pasada no cambia nada. Devuelve un resumen."""
     extractores = extractores or {}
     filas = leer_filas()
@@ -287,7 +280,7 @@ def cargar_gpt2():
 
 def logits_siguiente_token(tok, model, prefijo: str, con_bos: bool = False):
     """UN solo paso hacia adelante: devuelve los logits (numpy float64) del
-    siguiente token despues de `prefijo`. Con con_bos=True se antepone el token
+    siguiente token despues de prefijo. Con con_bos=True se antepone el token
     <|endoftext|> (con el que GPT-2 se entreno para separar documentos)."""
     import torch
 
@@ -494,7 +487,7 @@ def _tokenizador_hf(nombre_hf: str):
 
 
 def _contar_tokens_razonamiento(modelo_ollama: str, pensamiento: str, contenido: str, eval_count):
-    """Tokens del campo `thinking` de /api/chat. Devuelve (n, metodo).
+    """Tokens del campo thinking de /api/chat. Devuelve (n, metodo).
     Exacto con el tokenizador del modelo si esta disponible; si no, estimado
     repartiendo eval_count por caracteres (queda anotado en la columna nota)."""
     nombre_hf = _TOKENIZADORES_HF.get(modelo_ollama)
@@ -575,7 +568,7 @@ def es_solo_entero(texto: str) -> bool:
 def llamar(modelo_id: str, prompt: str, params: dict | None = None, *, parte: str, caso: str = "",
            variante: str = "", corrida: int = 0, esperado=None, extractor=None,
            registrar_fila: bool = True, nota: str = "") -> dict:
-    """Llama al modelo `modelo_id` (id de la tabla semestral), calcula acierto y
+    """Llama al modelo modelo_id (id de la tabla semestral), calcula acierto y
     costo, y (por defecto) agrega UNA fila a resultados.csv/.jsonl. Devuelve la fila."""
     params = dict(params or {})
     fila_tabla = fila_modelo(modelo_id)

@@ -1661,78 +1661,6 @@ Answer: 419",419,419,1,7.74e-05,,
 2026-09-20T00:58:38+00:00,4b,openai_razonamiento,gpt-5.6-luna,openai,"{""effort"": ""max"", ""max_output_tokens"": 16000}",C3,max,8,59,50,43,1.0876,27,27,27,1,7.18e-05,,
 2026-09-20T00:58:38+00:00,4b,openai_razonamiento,gpt-5.6-luna,openai,"{""effort"": ""max"", ""max_output_tokens"": 16000}",C3,max,7,59,69,62,1.6789,27,27,27,1,9.46e-05,,
 2026-09-20T00:58:38+00:00,4b,openai_razonamiento,gpt-5.6-luna,openai,"{""effort"": ""max"", ""max_output_tokens"": 16000}",C3,max,9,59,43,36,1.3487,27,27,27,1,6.34e-05,,
-2026-09-20T01:26:00+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""temperature"": 0.2}",0b1_dominio,,0,8,30,0,0.3418," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,interruptor: do_sample=False
-2026-09-20T01:26:00+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""temperature"": 1.5}",0b1_dominio,,0,8,30,0,0.3268," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,interruptor: do_sample=False
-2026-09-20T01:26:01+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false}",0b2_dominio,,-1,8,30,0,0.3667," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,referencia greedy
-2026-09-20T01:26:01+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,0,8,30,0,0.3553," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=0
-2026-09-20T01:26:01+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,1,8,30,0,0.3736," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=1
-2026-09-20T01:26:02+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,2,8,30,0,0.331," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=2
-2026-09-20T01:26:02+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,3,8,30,0,0.357," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=3
-2026-09-20T01:26:02+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,4,8,30,0,0.4022," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=4
-2026-09-20T01:26:04+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",0b4_unicornios,,0,28,100,0,1.1932,"
-
-The researchers found that the unicorns were able to survive in the wild for up to 10 years, and that they were able to survive in the wild for up to 10,000 years.
-
-""This is a very exciting discovery,"" said Dr. David H. Hirsch, a professor of ecology and evolutionary biology at the University of California, Berkeley. ""It's a very exciting discovery that we can now say that the unicorns are able to survive in the wild for up to",,,,0.0,,degeneracion greedy
-2026-09-20T01:26:05+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",0b4_aritmetica,,0,8,100,0,1.173," a total of 1,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847",,,,0.0,,"degeneracion greedy, prefijo de dominio"
-2026-09-20T01:26:07+00:00,0c,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",M1,,0,38,100,0,1.1179,"
-
-The problem is to solve the problem by multiplying the number of digits by the number of digits.
-
-The problem is to solve the problem by multiplying the number of digits by the number of digits.
-
-The problem is to solve the problem by multiplying the number of digits by the number of digits.
-
-The problem is to solve the problem by multiplying the number of digits by the number of digits.
-
-The problem is to solve the problem by multiplying the number of digits by",,,,0.0,,0c greedy
-2026-09-20T01:26:08+00:00,0c,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""max_new_tokens"": 100, ""temperature"": 0.7, ""top_k"": 0, ""top_p"": 1.0}",M1,,0,38,100,0,1.1781," No, we cannot find the 43 × 17 problem. We don't need to know the answer to find it. We need to know the answer to find it.
-
-Problem: Solve the arithmetic problem by solving the custom problem. Answer: No, we cannot find the 43 × 17 problem. We don't need to know the answer to find it. We need to know the answer to find it.
-
-Problem: Solve the custom problem by solving the custom problem. Answer:",,,,0.0,,0c muestreo T=0.7
-2026-09-20T01:26:26+00:00,1w,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",F1,calentamiento,0,43,32,24,2.8116,8393,8393,8393,1,4.7e-05,,
-2026-09-20T01:26:28+00:00,1w,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",F1,calentamiento,0,44,3,0,1.8893,8193,8193,8393,0,8.4e-06,,
-2026-09-20T01:26:30+00:00,1w,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",F1,calentamiento,0,60,21,0,2.0905,901 + 369 + 7123 = 8493,8493,8393,0,0.0,,ollama_total_s=2.087;carga_s=1.813
-2026-09-20T01:26:32+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",F1,fácil,0,43,36,28,1.5982,8393,8393,8393,1,5.18e-05,,
-2026-09-20T01:26:33+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",F2,fácil,0,43,32,25,1.594,311,311,311,1,4.7e-05,,
-2026-09-20T01:26:35+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",M1,medio,0,39,34,27,1.3912,731,731,731,1,4.86e-05,,
-2026-09-20T01:26:37+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",M2,medio,0,39,22,14,2.2698,2160,2160,2160,1,3.42e-05,,
-2026-09-20T01:26:38+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",D1,difícil,0,39,37,29,1.0059,76626,76626,76626,1,5.22e-05,,
-2026-09-20T01:26:39+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",D2,difícil,0,39,38,30,1.2292,63344,63344,63344,1,5.34e-05,,
-2026-09-20T01:26:41+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",D3,difícil,0,39,35,27,2.1431,172568,172568,172568,1,4.98e-05,,
-2026-09-20T01:26:43+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",X1,muy difícil,0,40,47,38,1.2713,5021952,5021952,5021952,1,6.44e-05,,
-2026-09-20T01:26:44+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",X2,muy difícil,0,40,53,44,1.4121,3863735,3863735,3863735,1,7.16e-05,,
-2026-09-20T01:26:46+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",P1,multipaso,0,46,30,23,2.2204,419,419,419,1,4.52e-05,,
-2026-09-20T01:26:48+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",F1,fácil,0,44,3,0,1.1528,8193,8193,8393,0,8.4e-06,,
-2026-09-20T01:26:49+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",F2,fácil,0,44,2,0,1.1959,311,311,311,1,7.8e-06,,
-2026-09-20T01:26:49+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",M1,medio,0,40,2,0,0.7002,731,731,731,1,7.2e-06,,
-2026-09-20T01:26:50+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",M2,medio,0,40,3,0,0.933,2160,2160,2160,1,7.8e-06,,
-2026-09-20T01:26:51+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",D1,difícil,0,40,3,0,0.8144,76526,76526,76626,0,7.8e-06,,
-2026-09-20T01:26:52+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",D2,difícil,0,40,3,0,1.2334,63424,63424,63344,0,7.8e-06,,
-2026-09-20T01:26:53+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",D3,difícil,0,40,3,0,0.7788,172048,172048,172568,0,7.8e-06,,
-2026-09-20T01:26:54+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",X1,muy difícil,0,41,3,0,1.0092,502752,502752,5021952,0,7.95e-06,,
-2026-09-20T01:26:55+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",X2,muy difícil,0,41,4,0,1.2679,3862035,3862035,3863735,0,8.55e-06,,
-2026-09-20T01:26:56+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",P1,multipaso,0,47,2,0,0.9189,429,429,419,0,8.25e-06,,
-2026-09-20T01:26:57+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",F1,fácil,0,60,21,0,0.2583,901 + 369 + 7123 = 8493,8493,8393,0,0.0,,ollama_total_s=0.255;carga_s=0.005
-2026-09-20T01:26:57+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",F2,fácil,0,60,31,0,0.3663,1010 - 243 - 456 = 1010 - 699 = 311,311,311,1,0.0,,ollama_total_s=0.364;carga_s=0.001
-2026-09-20T01:26:57+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",M1,medio,0,52,4,0,0.0706,731,731,731,1,0.0,,ollama_total_s=0.068;carga_s=0.001
-2026-09-20T01:26:57+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",M2,medio,0,52,5,0,0.0797,2160,2160,2160,1,0.0,,ollama_total_s=0.077;carga_s=0.001
-2026-09-20T01:26:57+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",D1,difícil,0,53,15,0,0.1877,774 × 99 = 76606,76606,76626,0,0.0,,ollama_total_s=0.185;carga_s=0.001
-2026-09-20T01:26:58+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",D2,difícil,0,53,25,0,0.2977,"856 × 74 = 62,624
-
-Answer: 62624",62624,63344,0,0.0,,ollama_total_s=0.295;carga_s=0.001
-2026-09-20T01:26:58+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",D3,difícil,0,54,30,0,0.3535,"583 × 296 = 172, 408
-
-Final answer: 172408",172408,172568,0,0.0,,ollama_total_s=0.351;carga_s=0.001
-2026-09-20T01:26:58+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",X1,muy difícil,0,55,19,0,0.2356,9984 × 503 = 4999352,4999352,5021952,0,0.0,,ollama_total_s=0.232;carga_s=0.001
-2026-09-20T01:26:59+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",X2,muy difícil,0,55,31,0,0.3641,"8345 × 463 = 385, 485
-
-Final answer: 385485",385485,3863735,0,0.0,,ollama_total_s=0.360;carga_s=0.001
-2026-09-20T01:26:59+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",P1,multipaso,0,61,37,0,0.4353,"43% of 1000 is 430.  
-430 - 11 = 419.  
-
-Answer: 419",419,419,1,0.0,,ollama_total_s=0.432;carga_s=0.001
 2026-09-20T01:27:14+00:00,2b,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0.0, ""top_p"": 1.0}",F1,T=0.0|P=1.0,1,44,3,0,0.8794,8193,8193,8393,0,8.4e-06,,
 2026-09-20T01:27:14+00:00,2b,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0.0, ""top_p"": 1.0}",F1,T=0.0|P=1.0,3,44,3,0,0.8993,8193,8193,8393,0,8.4e-06,,
 2026-09-20T01:27:14+00:00,2b,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0.0, ""top_p"": 1.0}",F1,T=0.0|P=1.0,2,44,3,0,1.0671,8193,8193,8393,0,8.4e-06,,
@@ -2968,3 +2896,75 @@ Answer: 419",419,419,1,0.0,,ollama_total_s=0.427;carga_s=0.001
 2026-09-20T01:31:09+00:00,4b_ext,openai_razonamiento,gpt-5.6-luna,openai,"{""effort"": ""max"", ""max_output_tokens"": 16000}",CD3,max,7,55,69,61,1.2624,63344,63344,63344,1,9.38e-05,,
 2026-09-20T01:31:10+00:00,4b_ext,openai_razonamiento,gpt-5.6-luna,openai,"{""effort"": ""max"", ""max_output_tokens"": 16000}",CD3,max,8,55,45,37,1.0931,63344,63344,63344,1,6.5e-05,,
 2026-09-20T01:31:10+00:00,4b_ext,openai_razonamiento,gpt-5.6-luna,openai,"{""effort"": ""max"", ""max_output_tokens"": 16000}",CD3,max,9,55,45,37,1.1042,63344,63344,63344,1,6.5e-05,,
+2026-09-21T00:10:18+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""temperature"": 0.2}",0b1_dominio,,0,8,30,0,0.2908," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,interruptor: do_sample=False
+2026-09-21T00:10:18+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""temperature"": 1.5}",0b1_dominio,,0,8,30,0,0.2885," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,interruptor: do_sample=False
+2026-09-21T00:10:18+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false}",0b2_dominio,,-1,8,30,0,0.3072," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,referencia greedy
+2026-09-21T00:10:19+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,0,8,30,0,0.3143," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=0
+2026-09-21T00:10:19+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,1,8,30,0,0.3102," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=1
+2026-09-21T00:10:19+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,2,8,30,0,0.3082," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=2
+2026-09-21T00:10:19+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,3,8,30,0,0.3089," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=3
+2026-09-21T00:10:20+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,4,8,30,0,0.3068," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=4
+2026-09-21T00:10:21+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",0b4_unicornios,,0,28,100,0,1.0192,"
+
+The researchers found that the unicorns were able to survive in the wild for up to 10 years, and that they were able to survive in the wild for up to 10,000 years.
+
+""This is a very exciting discovery,"" said Dr. David H. Hirsch, a professor of ecology and evolutionary biology at the University of California, Berkeley. ""It's a very exciting discovery that we can now say that the unicorns are able to survive in the wild for up to",,,,0.0,,degeneracion greedy
+2026-09-21T00:10:22+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",0b4_aritmetica,,0,8,100,0,1.0095," a total of 1,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847",,,,0.0,,"degeneracion greedy, prefijo de dominio"
+2026-09-21T00:10:23+00:00,0c,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",M1,,0,38,100,0,1.0487,"
+
+The problem is to solve the problem by multiplying the number of digits by the number of digits.
+
+The problem is to solve the problem by multiplying the number of digits by the number of digits.
+
+The problem is to solve the problem by multiplying the number of digits by the number of digits.
+
+The problem is to solve the problem by multiplying the number of digits by the number of digits.
+
+The problem is to solve the problem by multiplying the number of digits by",,,,0.0,,0c greedy
+2026-09-21T00:10:24+00:00,0c,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""max_new_tokens"": 100, ""temperature"": 0.7, ""top_k"": 0, ""top_p"": 1.0}",M1,,0,38,100,0,1.0822," No, we cannot find the 43 × 17 problem. We don't need to know the answer to find it. We need to know the answer to find it.
+
+Problem: Solve the arithmetic problem by solving the custom problem. Answer: No, we cannot find the 43 × 17 problem. We don't need to know the answer to find it. We need to know the answer to find it.
+
+Problem: Solve the custom problem by solving the custom problem. Answer:",,,,0.0,,0c muestreo T=0.7
+2026-09-21T00:11:54+00:00,1w,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",F1,calentamiento,0,43,32,24,2.0372,8393,8393,8393,1,4.7e-05,,
+2026-09-21T00:11:55+00:00,1w,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",F1,calentamiento,0,44,3,0,0.9685,8193,8193,8393,0,8.4e-06,,
+2026-09-21T00:11:57+00:00,1w,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",F1,calentamiento,0,60,21,0,2.1448,901 + 369 + 7123 = 8493,8493,8393,0,0.0,,ollama_total_s=2.139;carga_s=1.810
+2026-09-21T00:11:58+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",F1,fácil,0,43,32,24,1.0282,8393,8393,8393,1,4.7e-05,,
+2026-09-21T00:11:59+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",F2,fácil,0,43,29,22,1.2772,311,311,311,1,4.34e-05,,
+2026-09-21T00:12:01+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",M1,medio,0,39,24,17,1.3745,731,731,731,1,3.66e-05,,
+2026-09-21T00:12:02+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",M2,medio,0,39,26,18,1.4347,2160,2160,2160,1,3.9e-05,,
+2026-09-21T00:12:03+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",D1,difícil,0,39,37,29,1.1935,76626,76626,76626,1,5.22e-05,,
+2026-09-21T00:12:05+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",D2,difícil,0,39,39,31,1.5078,63344,63344,63344,1,5.46e-05,,
+2026-09-21T00:12:07+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",D3,difícil,0,39,34,26,1.7233,172568,172568,172568,1,4.86e-05,,
+2026-09-21T00:12:08+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",X1,muy difícil,0,40,47,38,1.2996,5021952,5021952,5021952,1,6.44e-05,,
+2026-09-21T00:12:10+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",X2,muy difícil,0,40,53,44,1.7374,3863735,3863735,3863735,1,7.16e-05,,
+2026-09-21T00:12:11+00:00,1,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",P1,multipaso,0,46,30,23,1.4377,419,419,419,1,4.52e-05,,
+2026-09-21T00:12:13+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",F1,fácil,0,44,3,0,1.3345,8193,8193,8393,0,8.4e-06,,
+2026-09-21T00:12:13+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",F2,fácil,0,44,2,0,0.8206,311,311,311,1,7.8e-06,,
+2026-09-21T00:12:14+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",M1,medio,0,40,2,0,0.8028,731,731,731,1,7.2e-06,,
+2026-09-21T00:12:15+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",M2,medio,0,40,3,0,1.0007,2160,2160,2160,1,7.8e-06,,
+2026-09-21T00:12:16+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",D1,difícil,0,40,3,0,0.936,76526,76526,76626,0,7.8e-06,,
+2026-09-21T00:12:18+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",D2,difícil,0,40,3,0,2.1839,63424,63424,63344,0,7.8e-06,,
+2026-09-21T00:12:20+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",D3,difícil,0,40,3,0,1.2935,172048,172048,172568,0,7.8e-06,,
+2026-09-21T00:12:20+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",X1,muy difícil,0,41,3,0,0.7132,502752,502752,5021952,0,7.95e-06,,
+2026-09-21T00:12:21+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",X2,muy difícil,0,41,4,0,0.862,3862035,3862035,3863735,0,8.55e-06,,
+2026-09-21T00:12:22+00:00,1,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",P1,multipaso,0,47,2,0,0.8855,429,429,419,0,8.25e-06,,
+2026-09-21T00:12:22+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",F1,fácil,0,60,21,0,0.2843,901 + 369 + 7123 = 8493,8493,8393,0,0.0,,ollama_total_s=0.281;carga_s=0.004
+2026-09-21T00:12:23+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",F2,fácil,0,60,31,0,0.4073,1010 - 243 - 456 = 1010 - 699 = 311,311,311,1,0.0,,ollama_total_s=0.405;carga_s=0.001
+2026-09-21T00:12:23+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",M1,medio,0,52,4,0,0.0741,731,731,731,1,0.0,,ollama_total_s=0.072;carga_s=0.001
+2026-09-21T00:12:23+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",M2,medio,0,52,5,0,0.0821,2160,2160,2160,1,0.0,,ollama_total_s=0.080;carga_s=0.001
+2026-09-21T00:12:23+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",D1,difícil,0,53,15,0,0.1885,774 × 99 = 76606,76606,76626,0,0.0,,ollama_total_s=0.187;carga_s=0.001
+2026-09-21T00:12:23+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",D2,difícil,0,53,25,0,0.3047,"856 × 74 = 62,624
+
+Answer: 62624",62624,63344,0,0.0,,ollama_total_s=0.302;carga_s=0.001
+2026-09-21T00:12:24+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",D3,difícil,0,54,30,0,0.3971,"583 × 296 = 172, 408
+
+Final answer: 172408",172408,172568,0,0.0,,ollama_total_s=0.395;carga_s=0.001
+2026-09-21T00:12:24+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",X1,muy difícil,0,55,19,0,0.2503,9984 × 503 = 4999352,4999352,5021952,0,0.0,,ollama_total_s=0.249;carga_s=0.001
+2026-09-21T00:12:24+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",X2,muy difícil,0,55,31,0,0.3858,"8345 × 463 = 385, 485
+
+Final answer: 385485",385485,3863735,0,0.0,,ollama_total_s=0.384;carga_s=0.001
+2026-09-21T00:12:25+00:00,1,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",P1,multipaso,0,61,37,0,0.4748,"43% of 1000 is 430.  
+430 - 11 = 419.  
+
+Answer: 419",419,419,1,0.0,,ollama_total_s=0.473;carga_s=0.001

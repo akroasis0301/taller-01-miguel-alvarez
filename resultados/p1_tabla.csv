@@ -1,4 +1,4 @@
 ranura,id,modelo,exactitud,exactitud_%,formato_ok_%,latencia_media_s,latencia_mediana_s,tokens_entrada_medio,tokens_salida_medio,tokens_razonamiento_medio,costo_10_casos_USD,costo_por_1000_problemas_USD,USD/M_entrada,USD/M_salida,precio_verificado,llamadas_con_error
-propietario grande (fila de razonamiento de OpenAI),openai_razonamiento,gpt-5.6-luna,10/10,100.0,100.0,1.614,1.503,40.7,36.4,28.5,0.000518,0.0518,0.2,1.2,2026-09-18,0
-propietario economico para produccion,propietario_economico,gpt-4o-mini,3/10,30.0,100.0,1.0,0.971,41.7,2.8,0.0,7.9e-05,0.0079,0.15,0.6,2026-08-26,0
-open-weight local (Ollama),open_weight_pequeno,qwen3:1.7b,4/10,40.0,20.0,0.265,0.278,55.5,21.8,0.0,0.0,0.0,0.0,0.0,- (cero real),0
+propietario grande (fila de razonamiento de OpenAI),openai_razonamiento,gpt-5.6-luna,10/10,100.0,100.0,1.401,1.405,40.7,35.1,27.2,0.000503,0.0503,0.2,1.2,2026-09-18,0
+propietario economico para produccion,propietario_economico,gpt-4o-mini,3/10,30.0,100.0,1.083,0.911,41.7,2.8,0.0,7.9e-05,0.0079,0.15,0.6,2026-08-26,0
+open-weight local (Ollama),open_weight_pequeno,qwen3:1.7b,4/10,40.0,20.0,0.285,0.294,55.5,21.8,0.0,0.0,0.0,0.0,0.0,- (cero real),0

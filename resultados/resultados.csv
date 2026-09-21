@@ -2896,36 +2896,6 @@ Answer: 419",419,419,1,0.0,,ollama_total_s=0.427;carga_s=0.001
 2026-09-20T01:31:09+00:00,4b_ext,openai_razonamiento,gpt-5.6-luna,openai,"{""effort"": ""max"", ""max_output_tokens"": 16000}",CD3,max,7,55,69,61,1.2624,63344,63344,63344,1,9.38e-05,,
 2026-09-20T01:31:10+00:00,4b_ext,openai_razonamiento,gpt-5.6-luna,openai,"{""effort"": ""max"", ""max_output_tokens"": 16000}",CD3,max,8,55,45,37,1.0931,63344,63344,63344,1,6.5e-05,,
 2026-09-20T01:31:10+00:00,4b_ext,openai_razonamiento,gpt-5.6-luna,openai,"{""effort"": ""max"", ""max_output_tokens"": 16000}",CD3,max,9,55,45,37,1.1042,63344,63344,63344,1,6.5e-05,,
-2026-09-21T00:10:18+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""temperature"": 0.2}",0b1_dominio,,0,8,30,0,0.2908," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,interruptor: do_sample=False
-2026-09-21T00:10:18+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""temperature"": 1.5}",0b1_dominio,,0,8,30,0,0.2885," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,interruptor: do_sample=False
-2026-09-21T00:10:18+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false}",0b2_dominio,,-1,8,30,0,0.3072," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,referencia greedy
-2026-09-21T00:10:19+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,0,8,30,0,0.3143," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=0
-2026-09-21T00:10:19+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,1,8,30,0,0.3102," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=1
-2026-09-21T00:10:19+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,2,8,30,0,0.3082," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=2
-2026-09-21T00:10:19+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,3,8,30,0,0.3089," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=3
-2026-09-21T00:10:20+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,4,8,30,0,0.3068," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=4
-2026-09-21T00:10:21+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",0b4_unicornios,,0,28,100,0,1.0192,"
-
-The researchers found that the unicorns were able to survive in the wild for up to 10 years, and that they were able to survive in the wild for up to 10,000 years.
-
-""This is a very exciting discovery,"" said Dr. David H. Hirsch, a professor of ecology and evolutionary biology at the University of California, Berkeley. ""It's a very exciting discovery that we can now say that the unicorns are able to survive in the wild for up to",,,,0.0,,degeneracion greedy
-2026-09-21T00:10:22+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",0b4_aritmetica,,0,8,100,0,1.0095," a total of 1,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847",,,,0.0,,"degeneracion greedy, prefijo de dominio"
-2026-09-21T00:10:23+00:00,0c,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",M1,,0,38,100,0,1.0487,"
-
-The problem is to solve the problem by multiplying the number of digits by the number of digits.
-
-The problem is to solve the problem by multiplying the number of digits by the number of digits.
-
-The problem is to solve the problem by multiplying the number of digits by the number of digits.
-
-The problem is to solve the problem by multiplying the number of digits by the number of digits.
-
-The problem is to solve the problem by multiplying the number of digits by",,,,0.0,,0c greedy
-2026-09-21T00:10:24+00:00,0c,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""max_new_tokens"": 100, ""temperature"": 0.7, ""top_k"": 0, ""top_p"": 1.0}",M1,,0,38,100,0,1.0822," No, we cannot find the 43 × 17 problem. We don't need to know the answer to find it. We need to know the answer to find it.
-
-Problem: Solve the arithmetic problem by solving the custom problem. Answer: No, we cannot find the 43 × 17 problem. We don't need to know the answer to find it. We need to know the answer to find it.
-
-Problem: Solve the custom problem by solving the custom problem. Answer:",,,,0.0,,0c muestreo T=0.7
 2026-09-21T00:11:54+00:00,1w,openai_razonamiento,gpt-5.6-luna,openai,"{""max_output_tokens"": 16000}",F1,calentamiento,0,43,32,24,2.0372,8393,8393,8393,1,4.7e-05,,
 2026-09-21T00:11:55+00:00,1w,propietario_economico,gpt-4o-mini,openai,"{""max_output_tokens"": 100, ""temperature"": 0}",F1,calentamiento,0,44,3,0,0.9685,8193,8193,8393,0,8.4e-06,,
 2026-09-21T00:11:57+00:00,1w,open_weight_pequeno,qwen3:1.7b,ollama,"{""num_predict"": 100, ""temperature"": 0, ""think"": false}",F1,calentamiento,0,60,21,0,2.1448,901 + 369 + 7123 = 8493,8493,8393,0,0.0,,ollama_total_s=2.139;carga_s=1.810
@@ -2968,3 +2938,33 @@ Final answer: 385485",385485,3863735,0,0.0,,ollama_total_s=0.384;carga_s=0.001
 430 - 11 = 419.  
 
 Answer: 419",419,419,1,0.0,,ollama_total_s=0.473;carga_s=0.001
+2026-09-21T00:23:01+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""temperature"": 0.2}",0b1_dominio,,0,8,30,0,0.3487," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,interruptor: do_sample=False
+2026-09-21T00:23:01+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""temperature"": 1.5}",0b1_dominio,,0,8,30,0,0.3076," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,interruptor: do_sample=False
+2026-09-21T00:23:02+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false}",0b2_dominio,,-1,8,30,0,0.319," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,referencia greedy
+2026-09-21T00:23:02+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,0,8,30,0,0.3405," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=0
+2026-09-21T00:23:02+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,1,8,30,0,0.3465," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=1
+2026-09-21T00:23:03+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,2,8,30,0,0.3325," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=2
+2026-09-21T00:23:03+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,3,8,30,0,0.3327," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=3
+2026-09-21T00:23:03+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""temperature"": 1.0, ""top_k"": 1, ""top_p"": 1.0}",0b2_dominio,,4,8,30,0,0.3361," a total of 1,847,847,847,847,847,847,847,847,8",,,,0.0,,semilla=4
+2026-09-21T00:23:05+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",0b4_unicornios,,0,28,100,0,1.0955,"
+
+The researchers found that the unicorns were able to survive in the wild for up to 10 years, and that they were able to survive in the wild for up to 10,000 years.
+
+""This is a very exciting discovery,"" said Dr. David H. Hirsch, a professor of ecology and evolutionary biology at the University of California, Berkeley. ""It's a very exciting discovery that we can now say that the unicorns are able to survive in the wild for up to",,,,0.0,,degeneracion greedy
+2026-09-21T00:23:06+00:00,0b,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",0b4_aritmetica,,0,8,100,0,1.0676," a total of 1,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847,847",,,,0.0,,"degeneracion greedy, prefijo de dominio"
+2026-09-21T00:23:07+00:00,0c,base_local,openai-community/gpt2,transformers,"{""do_sample"": false, ""max_new_tokens"": 100}",M1,,0,38,100,0,1.129,"
+
+The problem is to solve the problem by multiplying the number of digits by the number of digits.
+
+The problem is to solve the problem by multiplying the number of digits by the number of digits.
+
+The problem is to solve the problem by multiplying the number of digits by the number of digits.
+
+The problem is to solve the problem by multiplying the number of digits by the number of digits.
+
+The problem is to solve the problem by multiplying the number of digits by",,,,0.0,,0c greedy
+2026-09-21T00:23:08+00:00,0c,base_local,openai-community/gpt2,transformers,"{""do_sample"": true, ""max_new_tokens"": 100, ""temperature"": 0.7, ""top_k"": 0, ""top_p"": 1.0}",M1,,0,38,100,0,1.1429," No, we cannot find the 43 × 17 problem. We don't need to know the answer to find it. We need to know the answer to find it.
+
+Problem: Solve the arithmetic problem by solving the custom problem. Answer: No, we cannot find the 43 × 17 problem. We don't need to know the answer to find it. We need to know the answer to find it.
+
+Problem: Solve the custom problem by solving the custom problem. Answer:",,,,0.0,,0c muestreo T=0.7

@@ -1,0 +1,23 @@
+[project]
+name = "taller-01-miguel-alvarez"
+version = "0.1.0"
+description = "Taller 01 de IA Generativa y Agentes (MMIA 6013, USFQ): comparacion de modelos, decodificacion y razonamiento"
+readme = "README.md"
+authors = [
+    { name = "akroasis0301", email = "miguel.alvrz.n@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29",
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "openai>=1.50",
+    "pandas>=2.0",
+    "requests>=2.31",
+    "torch>=2.2",
+    "transformers>=4.44",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

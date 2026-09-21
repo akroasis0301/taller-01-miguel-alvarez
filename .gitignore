@@ -1,0 +1,36 @@
+# Credenciales: NUNCA al repositorio (politica de credenciales del curso)
+.env
+.env.*
+!.env.example
+
+# Python / entornos
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Entorno virtual de Python
+.venv/
+
+# Caché y bytecode de Python
+__pycache__/
+*.py[cod]
+
+# Cachés de herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos de macOS
+.DS_Store
+
+# Archivos temporales de editores
+*.swp
+*.swo

@@ -1,0 +1,11 @@
+prefijo,texto,con_BOS,token_mas_probable,p_top1,entropia_bits_T1,nucleo_90_T1
+dominio,The result of multiplying 47 by 38 is,False,␣a,0.1048,8.158,733
+dominio,The result of multiplying 47 by 38 is,True,␣a,0.1223,8.406,913
+seguro,Ladies and,False,␣gentlemen,0.4714,1.678,2
+seguro,Ladies and,True,␣gentlemen,0.6241,1.513,3
+incierto,"After that,",False,␣he,0.1206,7.892,2957
+incierto,"After that,",True,␣I,0.1099,7.575,2479
+pangrama,The quick brown fox jumps over the lazy,False,",",0.0557,9.291,2001
+pangrama,The quick brown fox jumps over the lazy,True,",",0.0422,9.418,2013
+frase_hecha,Once upon a,False,␣time,0.1766,8.507,1956
+frase_hecha,Once upon a,True,␣time,0.9919,0.143,1

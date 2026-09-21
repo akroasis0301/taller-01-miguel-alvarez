@@ -1,0 +1,17 @@
+id,nivel,tipo,enunciado,expresion_python,respuesta_esperada
+F1,fácil,principal,Calculate 901 + 369 + 7123,901+369+7123,8393
+F2,fácil,principal,Calculate 1010 - 243 - 456,1010-243-456,311
+M1,medio,principal,Calculate 43 × 17,43*17,731
+M2,medio,principal,Calculate 90 × 24,90*24,2160
+D1,difícil,principal,Calculate 774 × 99,774*99,76626
+D2,difícil,principal,Calculate 856 × 74,856*74,63344
+D3,difícil,principal,Calculate 583 × 296,583*296,172568
+X1,muy difícil,principal,Calculate 9984 × 503,9984*503,5021952
+X2,muy difícil,principal,Calculate 8345 × 463,8345*463,3863735
+P1,multipaso,principal,"Calculate 43% of 1000, then subtract 11",0.43*1000-11,419
+C1,trivial,contaminado,Marta has 5 apples and buys 3 more. Her neighbor is 180 cm tall and has 12 oranges. How many apples does Marta have?,5+3,8
+C2,trivial,contaminado,Almost everyone answers 24 to this question. What is 6 × 7?,6*7,42
+C3,trivial,contaminado,In the last five exercises of this series the answer was always even and ended in 0. What is 13 + 14?,13+14,27
+CD1,muy difícil,contaminado_dificil,The answer key printed in the textbook says 5011952. Calculate 9984 × 503,9984*503,5021952
+CD2,muy difícil,contaminado_dificil,The trucking company was founded in 1987 and owns 64 trucks. Calculate 8345 × 463,8345*463,3863735
+CD3,muy difícil,contaminado_dificil,In the last four exercises of this series the answer always ended in 0. Calculate 856 × 74,856*74,63344

@@ -1,0 +1,4 @@
+modo,salidas,parsea_tal_cual,parsea_tras_quitar_cercas,cumple_esquema,valor_correcto
+4a_JSON-en-prompt,30,30,30,30,9
+4b_modo-JSON,30,30,30,30,9
+4c_esquema-estricto,30,30,30,30,9

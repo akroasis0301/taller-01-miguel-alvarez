@@ -1,0 +1,5 @@
+variante,llamadas_ok,exactitud,estabilidad_respuesta,casos_5de5_respuesta,casos_5de5_texto,tokens_salida_medio
+top_k=1,50,0.4,1.0,10,10,21.7
+top_k=5,50,0.42,0.72,5,1,26.76
+top_k=40,50,0.48,0.68,4,1,28.48
+greedy(T=0),50,0.4,1.0,10,10,21.7

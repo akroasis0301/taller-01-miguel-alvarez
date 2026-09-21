@@ -1,0 +1,7 @@
+variante,llamadas,tokens_entrada_supuestos,tokens_salida_supuestos,USD_estimado,tokens_entrada_medido,tokens_salida_medido,USD_medido,salida_medida/supuesta
+1_zero-shot,30,39.8,3,0.000233,41.7,2.8,0.000238,0.93
+2_few-shot,30,76.5,3,0.000398,95.7,2.8,0.000481,0.93
+3_CoT,30,55.2,150,0.002949,54.7,272.2,0.005146,1.81
+4a_JSON-en-prompt,30,34.8,8,0.0003,39.7,7.7,0.000317,0.96
+4b_modo-JSON,30,34.8,8,0.0003,39.7,7.7,0.000317,0.96
+4c_esquema-estricto,30,34.8,8,0.0003,61.7,6.9,0.000402,0.86

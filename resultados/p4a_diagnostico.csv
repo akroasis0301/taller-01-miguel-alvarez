@@ -1,0 +1,7 @@
+nivel,razonamiento_medio,veredicto,detalle
+none,0.0,línea base,OK: none apaga el razonamiento
+low,25.4,aceptado y actúa,+25.4 tokens respecto del anterior
+medium,27.9,aceptado y NO actúa (no se distingue del nivel anterior),x1.10 respecto del anterior
+high,29.8,aceptado y NO actúa (no se distingue del nivel anterior),x1.07 respecto del anterior
+xhigh,33.5,aceptado y NO actúa (no se distingue del nivel anterior),x1.12 respecto del anterior
+max,40.2,aceptado y NO actúa (no se distingue del nivel anterior),x1.20 respecto del anterior

@@ -1,0 +1,7 @@
+variante,llamadas_ok,exactitud,exactitud_%,rango_entre_corridas_%,tokens_entrada_medio,tokens_salida_medio,costo_por_1000_problemas_USD,costo_por_respuesta_correcta_USD
+1_zero-shot,30,9/30,30.0,30–30,41.7,2.8,0.0079,2.64e-05
+2_few-shot,30,9/30,30.0,30–30,95.7,2.8,0.016,5.34e-05
+3_CoT,30,27/30,90.0,90–90,54.7,272.2,0.1715,0.0001906
+4a_JSON-en-prompt,30,9/30,30.0,30–30,39.7,7.7,0.0106,3.53e-05
+4b_modo-JSON,30,9/30,30.0,30–30,39.7,7.7,0.0106,3.53e-05
+4c_esquema-estricto,30,9/30,30.0,30–30,61.7,6.9,0.0134,4.46e-05

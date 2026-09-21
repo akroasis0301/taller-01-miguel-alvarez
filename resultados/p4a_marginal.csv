@@ -1,0 +1,7 @@
+nivel,delta_exactitud_pp,delta_USD_por_1000,USD_por_punto_por_1000,lectura
+none,,,,línea base
+low,10.0,0.0327,0.00327,+10.0 pp por +0.0327 USD/1000
+medium,0.0,0.0032,,0 pp de mejora por +0.0032 USD/1000
+high,0.0,0.0023,,0 pp de mejora por +0.0023 USD/1000
+xhigh,0.0,0.0044,,0 pp de mejora por +0.0044 USD/1000
+max,0.0,0.008,,0 pp de mejora por +0.0080 USD/1000

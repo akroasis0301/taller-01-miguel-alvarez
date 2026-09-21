@@ -1,0 +1,7 @@
+nivel,caso,contaminación,núcleo,contaminado,sin_contaminar_4a,razon_contaminado,razon_sin_contaminar,lectura,respuestas_dadas,truncadas
+none,CD1,marco engañoso,X1,10/10,0/3,0.0,0.0,no informa: ya falla sin contaminar,{5021952: 10},0
+none,CD2,información irrelevante,X2,8/10,3/3,0.0,0.0,,"{3863735: 8, 3863835: 1, 3864035: 1}",0
+none,CD3,correlación espuria,D2,10/10,3/3,0.0,0.0,,{63344: 10},0
+max,CD1,marco engañoso,X1,10/10,3/3,95.5,48.7,,{5021952: 10},0
+max,CD2,información irrelevante,X2,10/10,3/3,88.7,102.3,,{3863735: 10},0
+max,CD3,correlación espuria,D2,10/10,3/3,48.5,37.0,,{63344: 10},0

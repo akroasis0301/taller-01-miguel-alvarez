@@ -1,0 +1,4 @@
+id,llamadas_max,USD_max,llamadas_reales,con_error,USD_real,USD_cota/real
+propietario_economico,29,0.000574,29,1,0.000148,3.9
+openai_razonamiento,58,0.002575,34,5,0.000317,8.1
+open_weight_pequeno,49,0.0,49,0,0.0,

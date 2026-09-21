@@ -1,0 +1,12 @@
+modelo_id,reg,cond,corridas,con_error,distintas,respuestas
+open_weight_pequeno,think=False,BASE,8,0,8,"eagle, fox, sloth, cow, bird, zebra, crocodile, turtle"
+open_weight_pequeno,think=False,CTRL_typo,8,0,1,tiger×8
+open_weight_pequeno,think=False,T0,8,0,1,tiger×8
+open_weight_pequeno,think=False,TOPK1,8,0,1,tiger×8
+open_weight_pequeno,think=False,TOPP_BAJO,8,0,1,tiger×8
+openai_razonamiento,effort=none,BASE,8,0,5,"capybara×3, axolotl×2, penguin, wombat, quokka"
+openai_razonamiento,effort=none,T0,8,0,1,quokka×8
+openai_razonamiento,effort=none,TOPP_BAJO,8,0,1,quokka×8
+propietario_economico,defecto,BASE,8,0,7,"kangaroo×2, cheetah, quokka, octopus, giraffe, ocelot, aardvark"
+propietario_economico,defecto,T0,8,0,1,octopus×8
+propietario_economico,defecto,TOPP_BAJO,8,0,1,octopus×8

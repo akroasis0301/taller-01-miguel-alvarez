@@ -1,0 +1,20 @@
+modelo_id,caso,variante,esperado,prediccion,error_relativo_%,orden_de_magnitud_ok,salida
+propietario_economico,F1,fácil,8393,8193,2.3829,True,8193
+propietario_economico,D1,difícil,76626,76526,0.1305,True,76526
+propietario_economico,D2,difícil,63344,63424,0.1263,True,63424
+propietario_economico,D3,difícil,172568,172048,0.3013,True,172048
+propietario_economico,X1,muy difícil,5021952,502752,89.9889,False,502752
+propietario_economico,X2,muy difícil,3863735,3862035,0.044,True,3862035
+propietario_economico,P1,multipaso,419,429,2.3866,True,429
+open_weight_pequeno,F1,fácil,8393,8493,1.1915,True,901 + 369 + 7123 = 8493
+open_weight_pequeno,D1,difícil,76626,76606,0.0261,True,774 × 99 = 76606
+open_weight_pequeno,D2,difícil,63344,62624,1.1367,True,"856 × 74 = 62,624
+
+Answer: 62624"
+open_weight_pequeno,D3,difícil,172568,172408,0.0927,True,"583 × 296 = 172, 408
+
+Final answer: 172408"
+open_weight_pequeno,X1,muy difícil,5021952,4999352,0.45,True,9984 × 503 = 4999352
+open_weight_pequeno,X2,muy difícil,3863735,385485,90.023,False,"8345 × 463 = 385, 485
+
+Final answer: 385485"

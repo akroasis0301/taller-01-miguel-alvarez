@@ -1,0 +1,7 @@
+nivel,salida_total_supuesta_A,salida_total_medida,razonamiento_medido,medida/supuesta
+none,600,5.9,0.0,0.01
+low,1500,33.1,25.4,0.022
+medium,3000,35.8,27.9,0.012
+high,7000,37.7,29.8,0.005
+xhigh,12000,41.4,33.5,0.003
+max,16000,48.1,40.2,0.003

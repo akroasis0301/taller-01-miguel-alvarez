@@ -1,0 +1,176 @@
+{
+  "_origen": "Transcrito a mano del Anexo del enunciado del Taller 01 (PDF generado el 2026-09-18). NO es el archivo oficial del curso: si obtienes el oficial, reemplaza este archivo y conserva los mismos nombres de campo o ajusta tallerlib.py.",
+  "_aviso": "Los precios se leen SIEMPRE de este archivo, con la fecha 'verificado' de cada fila, nunca de memoria. Precio 0 con 'precio_cero_real': true significa costo real cero (modelo local).",
+  "modelos": [
+    {
+      "id": "propietario_grande",
+      "proveedor": "anthropic",
+      "modelo": "claude-opus-4-8",
+      "precio_entrada_usd_por_millon": 5.00,
+      "precio_salida_usd_por_millon": 25.00,
+      "verificado": "2026-07-10",
+      "variable_entorno": "ANTHROPIC_API_KEY",
+      "parametros_expuestos": {
+        "temperature": "solo_valor_por_defecto",
+        "top_p": "solo_valor_por_defecto",
+        "top_k": "solo_valor_por_defecto",
+        "esfuerzo": {
+          "dial": "output_config.effort",
+          "valores": ["low", "medium", "high", "xhigh", "max"],
+          "por_defecto": "high",
+          "contador": "usage.output_tokens_details.thinking_tokens"
+        }
+      }
+    },
+    {
+      "id": "propietario_balanceado",
+      "proveedor": "anthropic",
+      "modelo": "claude-sonnet-4-6",
+      "precio_entrada_usd_por_millon": 3.00,
+      "precio_salida_usd_por_millon": 15.00,
+      "verificado": "2026-07-10",
+      "variable_entorno": "ANTHROPIC_API_KEY",
+      "parametros_expuestos": {
+        "temperature": "sin_verificar",
+        "top_p": "sin_verificar",
+        "top_k": "sin_verificar",
+        "esfuerzo": {
+          "dial": "output_config.effort",
+          "valores": ["low", "medium", "high", "max"],
+          "por_defecto": "high",
+          "contador": "usage.output_tokens_details.thinking_tokens"
+        }
+      }
+    },
+    {
+      "id": "propietario_economico",
+      "proveedor": "openai",
+      "modelo": "gpt-4o-mini",
+      "precio_entrada_usd_por_millon": 0.15,
+      "precio_salida_usd_por_millon": 0.60,
+      "verificado": "2026-08-26",
+      "variable_entorno": "OPENAI_API_KEY",
+      "parametros_expuestos": {
+        "temperature": "si",
+        "top_p": "si",
+        "top_k": "no",
+        "esfuerzo": null
+      }
+    },
+    {
+      "id": "openai_razonamiento",
+      "proveedor": "openai",
+      "modelo": "gpt-5.6-luna",
+      "precio_entrada_usd_por_millon": 0.20,
+      "precio_salida_usd_por_millon": 1.20,
+      "verificado": "2026-09-18",
+      "variable_entorno": "OPENAI_API_KEY",
+      "parametros_expuestos": {
+        "temperature": "no_en_esta_fila",
+        "top_p": "no_en_esta_fila",
+        "top_k": "no",
+        "esfuerzo": {
+          "dial": "reasoning.effort (Responses API) / reasoning_effort (Chat Completions)",
+          "valores": ["none", "low", "medium", "high", "xhigh", "max"],
+          "por_defecto": "medium",
+          "contador": "usage.output_tokens_details.reasoning_tokens"
+        }
+      }
+    },
+    {
+      "id": "juez_economico",
+      "proveedor": "anthropic",
+      "modelo": "claude-haiku-4-5",
+      "precio_entrada_usd_por_millon": 1.00,
+      "precio_salida_usd_por_millon": 5.00,
+      "verificado": "2026-07-10",
+      "variable_entorno": "ANTHROPIC_API_KEY",
+      "parametros_expuestos": {
+        "temperature": "si",
+        "top_p": "si",
+        "top_k": "si",
+        "esfuerzo": {
+          "dial": null,
+          "valores": [],
+          "por_defecto": null,
+          "contador": "usage.output_tokens_details.thinking_tokens"
+        }
+      }
+    },
+    {
+      "id": "open_weight_local",
+      "proveedor": "ollama",
+      "modelo": "llama3.1:8b",
+      "precio_entrada_usd_por_millon": 0.0,
+      "precio_salida_usd_por_millon": 0.0,
+      "precio_cero_real": true,
+      "verificado": null,
+      "variable_entorno": null,
+      "parametros_expuestos": {
+        "temperature": "si",
+        "top_p": "si",
+        "top_k": "si",
+        "esfuerzo": null
+      }
+    },
+    {
+      "id": "base_local",
+      "proveedor": "huggingface",
+      "modelo": "openai-community/gpt2",
+      "precio_entrada_usd_por_millon": 0.0,
+      "precio_salida_usd_por_millon": 0.0,
+      "precio_cero_real": true,
+      "verificado": null,
+      "variable_entorno": null,
+      "parametros_expuestos": {
+        "temperature": "si",
+        "top_p": "si",
+        "top_k": "si",
+        "esfuerzo": null
+      }
+    },
+    {
+      "id": "open_weight_pequeno",
+      "proveedor": "ollama",
+      "modelo": "qwen3:1.7b",
+      "precio_entrada_usd_por_millon": 0.0,
+      "precio_salida_usd_por_millon": 0.0,
+      "precio_cero_real": true,
+      "verificado": null,
+      "comprobado_contra_api": "2026-09-18 (nota del anexo: diales de muestreo aceptados y actuan; think low/high acepta y no actua: 469 tokens de razonamiento en ambos)",
+      "variable_entorno": null,
+      "parametros_expuestos": {
+        "temperature": "si",
+        "top_p": "si",
+        "top_k": "si",
+        "esfuerzo": {
+          "dial": "depende del motor: think (booleano) en /api/chat de Ollama; enable_thinking + thinking_budget en transformers y vLLM",
+          "valores": ["think true/false (Ollama)", "thinking_budget 1-32768 tokens (transformers/vLLM)"],
+          "por_defecto": "Ollama: think=false si no se pide; transformers: enable_thinking=true, thinking_budget=4000",
+          "contador": "campo thinking que devuelve /api/chat en Ollama; tramo <think>...</think> de la salida en transformers"
+        }
+      }
+    },
+    {
+      "id": "open_weight_razonamiento",
+      "proveedor": "ollama",
+      "modelo": "gpt-oss:20b",
+      "precio_entrada_usd_por_millon": 0.0,
+      "precio_salida_usd_por_millon": 0.0,
+      "precio_cero_real": true,
+      "verificado": null,
+      "variable_entorno": null,
+      "parametros_expuestos": {
+        "temperature": "si",
+        "top_p": "si",
+        "top_k": "si",
+        "esfuerzo": {
+          "dial": "think (--think=low|medium|high en la CLI, campo think en /api/chat)",
+          "valores": ["low", "medium", "high"],
+          "por_defecto": "medium",
+          "contador": "longitud en tokens del campo thinking que devuelve /api/chat"
+        }
+      }
+    }
+  ]
+}
